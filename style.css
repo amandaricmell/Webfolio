@@ -196,14 +196,33 @@ header{
     transform: translate(-50%, -50%);
 }
 
+.menuG {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .menu-item{
     text-align: center;
     margin-bottom: 1rem;
 }
 
+.menu-itemG{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .menu-link{
     font-family: var(--font-action);
     font-size: 2rem;
+    color: #555;
+    transition: color 1s;
+}
+
+.menu-linkG{
+    font-family: var(--font-action);
+    font-size: 1.5rem;
     color: #555;
     transition: color 1s;
 }
@@ -254,23 +273,36 @@ header{
     margin-top: 2rem;
 }
 
-.info-modulo{
+.modulo-image-wrapper{
     width: 100%;
     height: 100%;
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(6, 6rem);
-}
-
-.imagem-modulo{
-    grid-column: 7 / 11;
-    grid-row: 3 / 6;
-    width: 25rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .imagem-modulo img{
     object-fit: cover;
     width: 100%;
+    margin-top: 6rem;
+}
+
+.modulo{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8rem;
+}
+
+.modulo-text{
+    font-family: var(--font-secundary);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: justify;
+    margin-top: 2rem;
+    color: #4b4b4b;
 }
 
 .sessao-competencias{
@@ -289,7 +321,7 @@ header{
     color: #4b4b4b;
     border-bottom: solid 3px #6a3093;
     margin-bottom: 1.5rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .competencias{
@@ -402,4 +434,65 @@ header{
     width: 100%;
     height: 10rem;
     background-color: rgba(0, 0, 0, 0.9);
+}
+
+.sessao-conteudo{
+    background-color: #f5f5f5;
+}
+
+.header-conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-conteudo h1{
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    color: #4b4b4b;
+    border-bottom: solid 3px #6a3093;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+.conteudo{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8rem;
+}
+
+.conteudo-text{
+    font-family: var(--font-secundary);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: justify;
+    margin-top: 2rem;
+    color: #4b4b4b;
+}
+
+.conteudo-image-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-conteudo{
+    object-fit: cover;
+    width: 7rem;
+    height: 7rem;
+}
+
+.imagem-conteudo img{
+    width: 100%;
+    height: 100%;
+}
+
+.video-conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
 }
