@@ -231,6 +231,10 @@ header{
     color: #a044ff;
 }
 
+.menu-linkG:hover{
+    color: #a044ff;
+}
+
 .social-media{
     position: absolute;
     bottom: 2rem;
