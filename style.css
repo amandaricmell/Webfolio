@@ -143,7 +143,7 @@ header{
     font-size: 3.5rem;
     font-weight: 200;
     color: #ffff;
-    text-shadow: .2rem .3rem 2px rgba(0, 0, 0, 0.4);
+    text-shadow: .2rem .1rem 2px rgba(0, 0, 0, 0.1);
     line-height: 3.5rem;
     margin-bottom: 2rem;
     opacity: 0;
@@ -516,7 +516,7 @@ header{
     font-size: 2rem;
     text-align: justify;
     margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     color: #4b4b4b;
 }
 
@@ -562,6 +562,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .imagem-conteudo-miro{
